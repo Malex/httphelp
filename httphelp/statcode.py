@@ -7,13 +7,13 @@ import os
 import sys
 import shutil
 
-from statcode.app_handler import App
-from statcode.content_generator import get_yaml_dictionary, generate_content
+from httphelp.app_handler import App
+from httphelp.content_generator import get_yaml_dictionary, generate_content
 
 #########
 # HELPERS
 #########
-from statcode.constants import SCROLL_LINE_UP, SCROLL_LINE_DOWN, SCROLL_PAGE_UP, SCROLL_PAGE_DOWN, SCROLL_TO_END, \
+from httphelp.constants import SCROLL_LINE_UP, SCROLL_LINE_DOWN, SCROLL_PAGE_UP, SCROLL_PAGE_DOWN, SCROLL_TO_END, \
     END, RED, BOLD, CURR_DIR, SCROLL_TO_TOP, UNDERLINE, YELLOW
 
 ######

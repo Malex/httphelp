@@ -1,7 +1,7 @@
 import urwid as _urwid
 from urwid.widget import BOX, FLOW, FIXED
 
-from statcode.constants import SCROLL_LINE_UP, SCROLL_LINE_DOWN, SCROLL_PAGE_UP, SCROLL_PAGE_DOWN, SCROLL_TO_END, \
+from httphelp.constants import SCROLL_LINE_UP, SCROLL_LINE_DOWN, SCROLL_PAGE_UP, SCROLL_PAGE_DOWN, SCROLL_TO_END, \
     SCROLL_TO_TOP
 
 

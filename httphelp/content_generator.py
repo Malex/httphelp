@@ -3,8 +3,8 @@ import sys
 import yaml
 import urwid
 
-from statcode.constants import CURR_DIR
-from statcode.app_handler import Scrollable
+from httphelp.constants import CURR_DIR
+from httphelp.app_handler import Scrollable
 
 
 def __load_file_data(num):
