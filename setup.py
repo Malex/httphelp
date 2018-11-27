@@ -7,7 +7,7 @@ from codecs import open
 setup(
     name="httphelp",
     description="Like man pages, but for HTTP status codes and headers (and more)",
-    version="v1.1.0",
+    version="v1.1.1",
     install_requires=["pyyaml", "urwid"],
     packages=["httphelp"],
     entry_points={"console_scripts": ["httphelp = httphelp.statcode:main"]},
