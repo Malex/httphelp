@@ -2,7 +2,7 @@ import os
 
 CURR_DIR = os.path.dirname(os.path.realpath(__file__))
 
-_isNotDumb = os.getenv("TERM", "dumb").lower() == "dumb"
+_isNotDumb = os.getenv("TERM", "dumb").lower() != "dumb"
 
 # Scroll actions
 SCROLL_LINE_UP = "line up"
